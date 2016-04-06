@@ -1,0 +1,34 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "2ec1790207a8ba67a7192c6af1eafec4",
+      "css": "steam",
+      "code": 59395,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "c99e966e3d22ec0b9d8678fd524e5512",
+      "css": "facebook",
+      "code": 59392,
+      "src": "elusive"
+    },
+    {
+      "uid": "94ca559902b8930f0b267a588ffddb0b",
+      "css": "instagram",
+      "code": 59394,
+      "src": "elusive"
+    },
+    {
+      "uid": "990d39e5b7e9750c55d2593b1cc61a0a",
+      "css": "youtube",
+      "code": 59393,
+      "src": "elusive"
+    }
+  ]
+}

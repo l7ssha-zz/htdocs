@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+	<title>BRAINFACK - About Game</title>
+	
+	<meta name="description" content="The site dedicated to the game - BRAINFACK " />
+	<meta name="keywords" content="games, computer, unity3d, unity, music, rhytm, skill, " />
+	
+	<link href="../css/style.css" rel="stylesheet" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	
+	<link href="../css/fontello.css" rel="stylesheet" type="text/css" />
+	
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<div class="header">
+			<div class="logo">
+				<a href="../"> <img src="../png/web-aboutgame.png" style="float: left;"/> </a>
+				<span style="color: #c34f4f">BRAIN</span><span style="color: #00F7FF">FACK</span>
+				<div style="clear:both;"></div>
+			</div>
+		</div>
+		<div class="nav">
+			<ol>
+				<li><a href="/./">Main Page</a></li>
+				<li><a href="#">About game</a>
+					<ul>
+						<li><a href="#">Description</a></li>
+						<li><a href="../galery/">Galery</a></li>
+					</ul>
+				</li>	
+				<li><a href="#">Online Scoretable</a>
+					<ul>
+						<li><a href="../scoretable/">User Table</a></li>
+						<li><a href="../scoretable/global">Global Table</a></li>
+					</ul>
+				</li>
+				<li><a href="../faq/">FAQ</a></li>
+				<li><a href="http://steamcommunity.com/id/l7ssha">Play Now!</a></li>
+				<li><a href="../aboutus/">About l7ssha</a></li>
+			</ol>
+		</div>
+		
+		<div class="content">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque accumsan purus eu odio efficitur tincidunt. Morbi tincidunt ligula dolor, at lacinia felis ultricies eget. Duis sagittis facilisis tempus. Donec vel efficitur purus. Praesent ullamcorper tellus metus, sed fermentum mauris sollicitudin ac. Vestibulum mollis massa purus. Sed rutrum ipsum lorem, id interdum arcu ullamcorper sit amet. Quisque tempus tellus tortor, vel vehicula sapien consequat et. Proin accumsan sed neque et condimentum. Praesent imperdiet rhoncus suscipit.</p>
+
+			<p>Etiam vel quam in nisl porta ornare vel sed quam. Curabitur faucibus sit amet nisi in consectetur. Phasellus sit amet nisi tempor, aliquet orci sed, sollicitudin orci. Sed dignissim turpis in purus vehicula molestie. In at lorem ex. Aliquam lacinia hendrerit sapien, vitae efficitur lorem tincidunt luctus. Etiam pulvinar, lorem ut consequat elementum, diam diam suscipit tellus, vitae rhoncus nulla nisi sed tortor. Vivamus leo purus, auctor id velit tincidunt, hendrerit hendrerit sem. Fusce id ornare elit, finibus cursus magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur mollis diam feugiat eros interdum, sit amet venenatis lectus interdum. Curabitur varius ultrices risus dapibus sollicitudin. </p>
+		</div>
+		
+		<div class="socials">
+			<div class="socialdivs">
+				<div class="fb">
+					<a href="http://fb.com"><i class="icon-facebook"></a></i>
+				</div>
+				<div class="yt">
+					<a href="http://youtube.com"><i class="icon-youtube"></a></i>
+				</div>
+				<div class="instagram">
+					<a href="http://instagram.com"><i class="icon-instagram"></a></i>
+				</div>
+				<div class="steam">
+					<a href="http://steamcommunity.com/id/l7ssha"><i class="icon-steam"></a></i>
+				</div>
+				<div style="clear:both"></div>
+			</div>
+		</div>
+		
+		<div class="footer">BRAINFACK | Szymon "l7ssha" Uglis &copy; 2016 </div>
+	</div>
+	
+	<script src="../js/jquery-1.11.3.min.js"></script>
+	
+	<script>
+
+	$(document).ready(function() {
+	var NavY = $('.nav').offset().top;
+	 
+	var stickyNav = function(){
+	var ScrollY = $(window).scrollTop();
+		  
+	if (ScrollY > NavY) { 
+		$('.nav').addClass('sticky');
+	} else {
+		$('.nav').removeClass('sticky'); 
+	}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
+	
+</script>
+	
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title> Przyciski w css </title>
+
+		<link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class="wrapper"> 
+			<div class="nav">
+				Przyciski w CSS3
+			</div>
+			
+			<div class="content">
+				<br/ >
+				<button id="lamb" style="vertical-align:middle"><span>ZS Ł-ce </span></button>
+				<br/ >
+				<button id="bf"><span>Brainfack </span></button>
+				<br/ > <br/ >
+				<button id="janusz"><span>Janusz </span></button>
+				<br/ >
+			</div>
+		</div>
+	</body>
+</html>
+
+<script src="../brainfack/js/jquery-1.11.3.min.js"></script>
+
+<script>
+
+	$('#lamb').click(function() 
+	{
+	    window.location.href = 'http://zslambinowice.pl';
+	    return false;
+	});
+
+	$('#janusz').click(function() 
+	{
+	    var win = window.open('../brainfack/scoretable', '_blank');
+
+		if(win) { win.focus(); }
+		else { alert('Please allow popups for this site'); }
+	});
+
+</script>

@@ -1,0 +1,86 @@
+body
+{
+	background-color: #111C33;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	margin: 0 !important;
+	font-style: normal;
+}
+
+.login
+{
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.nagl
+{/**/
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	color: #aaaaaa;
+	text-align: center;
+	font-size: 30px;
+}
+
+.nagl-2
+{
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 2px;
+	font-size: 25px;
+	color: yellow;
+}
+
+.wyniki
+{
+	width: 50%
+	float:left;
+}
+
+.menu
+{
+	text-align: left;
+	width: 50%;
+	height: 30px;
+	float:right;
+}
+
+.tak
+{
+	text-align: center;
+}
+
+#tabela 
+{
+   border: 1px solid black;
+   border-collapse: collapse;
+   border: none;
+   table-layout: auto; width: 40%;
+}
+
+#tabela td 
+{
+   padding: 6px;
+}
+
+td.id
+{
+	color: #FF0000;
+}
+
+a
+{
+	color: yellow;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: orange;
+}
