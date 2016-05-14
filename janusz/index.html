@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+	<head>
+
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+	<title>Stolarstwo Wójcicki</title>
+	
+	<meta name="description" content="Stolarstwo Wójcicki - firma produkująca mebl, dzwi itp" />
+	<meta name="keywords" content="meble, stoły, wójcicki, stolarstwo" />
+	
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	
+	<link href="css/fontello.css" rel="stylesheet" type="text/css" />
+	
+</head>
+
+	<body>
+		<div class="wrapper">
+			<div class="header">
+				<div class="logo">
+				<span style="color: #fff">Stolartswo Wójcicki</span>
+				<div style="clear:both;"></div>
+			</div>
+			</div>
+			<div class="nav">
+				<ol>
+					<li><a href="#">Strona Główna</a></li>
+					<li><a href="#">Galeria</a>
+                        <ul>
+                            <li><a href="galeria/dzwi/">Drzwi</a></li>
+                            <li><a href="galeria/garderoby/">Garderoby</a></li>
+                            <li><a href="galeria/kuchnie/">Kuchnie</a></li>
+                            <li><a href="galeria/schody/">Schody</a></li>
+                            <li><a href="galeria/Inne/">Inne</a></li>
+                            
+				        </ul>
+                    </li>
+					<li><a href="kontakt/">Kontakt</a></li>
+				</ol>
+			</div>
+			
+			<div class="content">
+                <p>Jestem stolarzem z wieloletnim doświadczeniem. Praktyką swoją zdobywałem w kraju oraz za granicą. Moim głównym produktem są schody drewniane oraz meble. Wytwarzam biurka, meble biurowe, garderoby, sypialnie, kuchnie na wymiar. Schody drewniane wykonuje z najlepszego suszonego drewna krajowego, które jest lakierowane i ewentualnie barwione na dowolny kolor. Działam na terenie województwa opolskiego, śląskiego i inny. Moim klientom zapewniam kompleksową i profesjonalną obsługę od dokonania pomiaru po realizację zlecenia.  Do każdego zlecenia pochodzę indywidualnie. Moje wyroby wytwarzam od początku do końca, a produkcja nie jest masowa.</p>
+
+                <p>Oferuję najwyższą jakość usług dlatego wykorzystuje do pracy wysokiej klasy narzędzia. wspomagam proces projektowania schodów, kuchni itd. oprogramowaniem komputerowym. Zachęcam do skorzystania z moim usług.</p>
+            </div>
+            
+			<div class="socials">
+			<div class="socialdivs">
+				<div style="clear:both"></div>
+			</div>
+		</div>
+			</div>
+			
+			<div class="footer">Stolarstwo Wójcicki &copy; 2016 </div>
+			
+		</div>
+		
+		<script src="js/jquery-1.11.3.min.js"></script>
+
+		<script>
+
+			$(document).ready(function() {
+			var NavY = $('.nav').offset().top;
+			 
+			var stickyNav = function(){
+			var ScrollY = $(window).scrollTop();
+				  
+			if (ScrollY > NavY) { 
+				$('.nav').addClass('sticky');
+			} else {
+				$('.nav').removeClass('sticky'); 
+			}
+			};
+			 
+			stickyNav();
+			 
+			$(window).scroll(function() {
+				stickyNav();
+			});
+			});
+			
+		</script>
+		
+	</body>
+</html>

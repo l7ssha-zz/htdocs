@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2016 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="facebook" unicode="&#xe800;" d="m0-150l0 1000 1000 0 0-1000-1000 0z m471 469l92 0 0-352 132 0 0 352 129 0 6 127-135 0 0 94q0 31 12 43t41 13l80 0 2 117q-59 6-88 6l-23 0q-31 0-57-10-99-39-99-154l0-109-92 0 0-127z" horiz-adv-x="1000" />
+<glyph glyph-name="youtube" unicode="&#xe801;" d="m0-29l0 758 1000 0 0-758-1000 0z m355 157l350 220-350 219 0-439z" horiz-adv-x="1000" />
+<glyph glyph-name="instagram" unicode="&#xe802;" d="m0-150l0 674 270 0q-26-51-26-110 0-103 73-175t176-73 176 73 73 175q0 59-25 110l283 0 0-674-1000 0z m0 715l0 285 1000 0 0-285-311 0q-74 96-196 96t-196-96l-297 0z m49 45l35 0 0 191q-16-6-25-20t-10-33l0-138z m60 0l36 0 0 197-36 0 0-197z m59 0l35 0 0 197-35 0 0-197z m61 0l33 0 0 197-33 0 0-197z m44-197q0 91 65 156t155 64 155-64 65-156-65-154-155-63-155 63-65 154z m45 1q0-72 51-123t123-50 124 50 52 123-52 124-124 50-123-50-51-123z m422 254q0-23 18-41t43-17l94 0q23 0 41 17t17 41l0 80q0 24-17 42t-41 17l-94 0q-26 0-43-17t-18-42l0-80z" horiz-adv-x="1000" />
+<glyph glyph-name="steam" unicode="&#xe803;" d="m883 525q0-56-40-96t-96-40-97 40-39 96 39 96 97 40 96-40 40-96z m-430-414q0 58-41 99t-98 41q-15 0-30-4l58-23q43-17 61-60t0-84q-17-43-59-61t-85 0q-12 4-35 13t-34 14q18-34 51-54t73-20q58 0 98 40t41 99z m463 414q0 70-50 120t-120 50q-71 0-121-50t-50-120q0-71 50-121t121-50q70 0 120 50t50 121z m84 0q0-106-75-180t-179-74l-244-178q-6-72-61-122t-127-50q-68 0-120 43t-66 107l-128 51v240l217-88q44 27 97 27 7 0 19-1l159 227q1 104 75 178t179 74q105 0 179-75t75-179z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
